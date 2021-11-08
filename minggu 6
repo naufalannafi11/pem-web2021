@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-image: url(../minggu5/jpg/pattern.png);
+}
+.container{
+    width: 800px;
+    background-color: lightgray;
+    margin-left: 250px;
+    height: 100%;
+}
+h2{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: -20px;
+}
+.gambar{
+    background-image: url(../minggu5/jpg/kopi.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: 0, -50px;
+}
+p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    height: 30px;
+    margin-bottom: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>My Website</h2>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </div>
+        <div class="gambar"></div>
+        <div class="konten">
+            <h2>Elemen Semantik</h2>
+            <p>Ditulis Oleh : <a href="">naufal annafi</a></p>
+            <p>Semantik elemen adalah elemen yang mimiliki makna dan tujuan, tujuannya agar kode HTML mudah dibaca dan tidak ada penyalahgunaan tag. Elemen 
+                semantik bagus untuk SEO dan juga dapat meningkatkan accessibility.
+                </p>
+        <div class="footer">
+            <p>Copyright 2021 @naufal.annafi</p>
+        </div>
+    </div>
+</body>
+</html>
