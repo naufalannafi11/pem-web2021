@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Belajar Form</title>
+</head>
+
+<body>
+    <h2> Form</h2>
+    <form action="proses.php" method="POST" name="fcontoh"
+        <label for="fnim">NIM:</label>
+        <input type="text" id="fnim" name="fnim" type="text"><br>
+        <label for="fnim">NAMA:</label>
+        <input type="text" id="fnama" name="fnama" type="text"><br>
+        <label for="prodi" >Program Studi:</label>
+        <select id="fprodi" name="fprodi">
+            <option value="11">Teknik Informatika - S1</option>
+        </select>
+        <br>
+        <input type="submit" name="fsubmit" value="Kirim/Simpan"
+    </form>
+    </body>
+</html>
