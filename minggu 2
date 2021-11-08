@@ -1,0 +1,243 @@
+<html><head>
+    <title>biodata</title>
+    <style>
+        .container{
+            height: 900px;
+            width: 800px;
+            margin-left: 350px;
+            background-color: gray;
+        }
+        table.tabel {
+            margin-right: auto;
+            margin-left: auto;
+            padding: 8px;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border: none;
+            border-collapse: collapse;
+        }
+        table.tabel tr {
+            background-color: gray;
+            
+        }
+        /* td { border-top: 1px solid rgb(37, 37, 37);} */
+        table.tabel2 {
+            margin-right: auto;
+            margin-left: auto;
+            padding: 8px;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border-radius: 5px;
+            border-collapse: collapse;
+        }
+        table.tabel2 thead {
+            background-color: rgb(82, 81, 81);
+            border-collapse: collapse;
+            border-radius: 5px;
+        }
+        table.tabel2 th {
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgb(140, 141, 140);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 7px;
+        }
+        h4.jadwal {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        tr.ganjil {
+            background-color: rgb(66, 68, 66);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 7px;
+        }
+        tr.ganjil td {
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgb(151, 151, 151);
+            text-align: center  ;
+            border-radius: 5px;
+        }
+        tr.genap {
+            background-color: rgb(190, 190, 190);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        tr.genap td {
+            border-radius: 5px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgb(161, 161, 161);
+            text-align: center;
+        }
+        div.biodata img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+        }
+        h1 {
+            font-size: 50px;
+            font-style: normal;
+            text-align: center;
+            background-color: lightslategray;
+        }
+        body{
+            background-color: black;
+        }
+        .biodata{
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>BIODATA MAHASISWA</h1>
+
+
+    <div class="biodata">
+        <img src="opal.jpeg"  style="border-radius: 7px; border: 2px solid black">
+    </div>
+
+
+
+    <hr width="80%" color="grey">
+    <div>
+        <table class="tabel">
+
+            <tbody><tr>
+                <td style="font-weight:bold;">Name</td>
+                <td style="font-weight:bold;">:</td>
+                <td>M. Naufal Annafi</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;">NIM</td>
+                <td style="font-weight:bold;">:</td>
+                <td>A11.2021.13627</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;">Academic Advisor</td>
+                <td style="font-weight:bold;">:</td>
+                <td>Ricardus</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;">Status</td>
+                <td style="font-weight:bold;">:</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td style="font-weight:bold;">Phone Number</td>
+                <td style="font-weight:bold;">:</td>
+                <td>081542141606</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;">E-mail</td>
+                <td style="font-weight:bold;">:</td>
+                <td>
+                    111202113627@mhs.dinus.ac.id<br>
+                    -<br>
+                    <a href="http://">naufalannafi201@gmail.com  </a>                   </td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold;">Religion</td>
+                <td style="font-weight:bold;">:</td>
+                <td>Islam</td>
+            </tr>
+
+        </tbody></table>
+
+    </div>
+
+
+<!-- TAMPIL KRS, PRESTASI, BEASISWA, CATATAN KRIMINAL MHS AKTIF -->
+   
+
+
+<div style="border-radius: 0px;">
+                <div>
+                    <h4 class="jadwal">Jadwal KRS</h4>
+                    <div>
+                        <table class="tabel2">
+                            <thead>
+                            <tr>
+                                <th style="width: 40px;">No.</th>
+                                <th style="width: 120px;">Courses Code</th>
+                                <th style="width: 50px;">Group</th>
+                                <th >Courses</th>
+                                <th style="width: 50px;">SKS</th>
+                                <th style="width: 60px;">Status</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="ganjil">
+                                    <td>1.</td>
+                                    <td>A11.54101</td>
+                                    <td>A11.4106</td>
+                                    <td>KALKULUS 1</td>
+                                    <td>4</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr class="genap">
+                                    <td>2.</td>
+                                    <td>A11.54105</td>
+                                    <td>A11.4106</td>
+                                    <td>DASAR PEMROGRAMAN</td>
+                                    <td>4</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr class="ganjil">
+                                    <td>3.</td>
+                                    <td>A11.54302</td>
+                                    <td>A11.4106</td>
+                                    <td>MATEMATIKA DISKRIT</td>
+                                    <td>3</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr class="genap">
+                                    <td>4.</td>
+                                    <td>A11.54314</td>
+                                    <td>A11.4106</td>
+                                    <td>PEMROGRAMAN BERBASIS WEB</td>
+                                    <td>2</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr class="ganjil">
+                                    <td>5.</td>
+                                    <td>A11.54403</td>
+                                    <td>A11.4106</td>
+                                    <td>ORGANISASI DAN ARSITEKTUR KOMPUTER</td>
+                                    <td>3</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr class="genap">
+                                    <td>6.</td>
+                                    <td>AF201704</td>
+                                    <td>A11.4106</td>
+                                    <td>DASAR DASAR KOMPUTASI</td>
+                                    <td>2</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr class="ganjil">
+                                    <td>7.</td>
+                                    <td>U201704</td>
+                                    <td>A11.4MATR</td>
+                                    <td>PENGANTAR TEKNOLOGI INFORMASI</td>
+                                    <td>2</td>
+                                    <td>B</td>
+                                </tr>
+                                     <!-- END FOREACH KRS -->
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body></html>
